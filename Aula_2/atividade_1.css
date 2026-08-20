@@ -1,0 +1,56 @@
+body {
+  background-color: darkslategray; /*Altera a cor de fundo da página */
+  color: lightgray; /*Altera a cor dos textos */
+  font-size: 18px; /*Altera o tamanho dos textos */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #162e2e;
+}
+
+.links-navs ul {
+  display: flex;
+}
+
+.links-navs ul li {
+  margin-left: 8px;
+}
+
+.links-navs ul li::marker {
+  color: transparent;
+}
+
+main {
+  padding: 8px 16px;
+  width: 60%;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: aliceblue;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+footer {
+  padding: 8px 16px;
+  margin-top: 42px;
+  display: flex;
+  justify-content: center;
+  background-color: #162e2e;
+}
