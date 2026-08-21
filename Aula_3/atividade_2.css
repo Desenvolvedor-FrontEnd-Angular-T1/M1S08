@@ -1,0 +1,30 @@
+.card {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 16px;
+  background-color: #f6f6f6;
+  width: 200px;
+}
+
+.card h1 {
+  margin: 0;
+}
+
+button {
+  height: 25px;
+  width: 120px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid black;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  scale: 1.1;
+}
+
+.clicado {
+  background-color: #2d76ec;
+  color: #ffffff;
+}
